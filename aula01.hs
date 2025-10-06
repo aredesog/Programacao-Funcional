@@ -1,3 +1,5 @@
+--Para compilar qualquer um dos programas, usar o ghci, comentar os demais, e chamar a funçao com seus respectivos paramentros.
+
 
 --Declaração de Função
         dobro x = x + x
@@ -11,7 +13,6 @@
         then "vc é maior de idade e pode ser respondavel por seus atos"
         else "ta tudo certo"
 
-
 --Outra forma de usar o If e Else em haskel
 
         positivo::Int->Bool  (recebe um inteiro e retorna um booleano)
@@ -19,11 +20,8 @@
         | x>= 0 = True
         | otherwise = False
 
-
 --Media entre dois Numeros
     media x y = (x + y) `div` 2 
-
-
 
 --Escreva uma função que receba um numero e diga se ele é par ou impar
     vericabilidade x = if x `mod` 2 == 0

@@ -1,4 +1,3 @@
-{-
 
 PROPIEDADES DO HASKEL
 
@@ -13,4 +12,3 @@ FUNÇÕES
     succ (min (max 2 3 ) 5) -> 4 (sucessor da conta especificada)
     let dobro x = x in dobro 3 (let é o armazenamento do uma operação aritimetica, que pode ser usada futuramenteo in indica onde ela pode ser usada)
     
--}
