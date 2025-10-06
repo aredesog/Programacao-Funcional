@@ -1,22 +1,30 @@
 {-
+--Declaração de Função
+        dobro x = x + x
+        triplo x = x + x + x
 
-PROPIEDADES DO HASKEL
+--Declaração de print
+    meuPrimeiroCodigo = "Programar em haskel é legal"
 
-    -> ghci é um executavel non terminal de haskel, no qual da para testar 
- contas basicas de multiplicação, adição, soma e subtração.
+--If e Else
+    verificalidade x = if x >= 18 
+        then "vc é maior de idade e pode ser respondavel por seus atos"
+        else "ta tudo certo"
 
-    -> é uma linguagem funcional, com o proposito do "o que realizar?"
 
+--Outra forma de usar o If e Else em haskel
 
-FUNÇÕES
-    min (max 2 3) 5 -> 3
-    succ (min (max 2 3 ) 5) -> 4 (sucessor da conta especificada)
-    let dobro x = x in dobro 3 (let é o armazenamento do uma operação aritimetica, que pode ser usada futuramenteo in indica onde ela pode ser usada)
-    
+        positivo::Int->Bool  (recebe um inteiro e retorna um booleano)
+        positivo x
+        | x>= 0 = True
+        | otherwise = False
 -}
 
-dobro x = x + x
+--Media entre dois Numeros
+    media x y = (x + y) `div` 2 
 
-:r
 
-dobro 6
+
+
+
+
