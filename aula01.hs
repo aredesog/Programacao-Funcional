@@ -1,0 +1,16 @@
+{-
+
+PROPIEDADES DO HASKEL
+
+    -> ghci é um executavel non terminal de haskel, no qual da para testar 
+ contas basicas de multiplicação, adição, soma e subtração.
+
+    -> é uma linguagem funcional, com o proposito do "o que realizar?"
+
+
+FUNÇÕES
+    min (max 2 3) 5 -> 3
+    succ (min (max 2 3 ) 5) -> 4 (sucessor da conta especificada)
+    let dobro x = x in dobro 3 (let é o armazenamento do uma operação aritimetica, que pode ser usada futuramenteo in indica onde ela pode ser usada)
+    
+-}
