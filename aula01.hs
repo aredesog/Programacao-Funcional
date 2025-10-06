@@ -1,4 +1,4 @@
-{-
+
 --Declaração de Função
         dobro x = x + x
         triplo x = x + x + x
@@ -18,11 +18,22 @@
         positivo x
         | x>= 0 = True
         | otherwise = False
--}
+
 
 --Media entre dois Numeros
     media x y = (x + y) `div` 2 
 
+
+
+--Escreva uma função que receba um numero e diga se ele é par ou impar
+    vericabilidade x = if x `mod` 2 == 0
+        then "e par"
+        else "e impar"
+
+--EScreva uma função que diga se uma pessoa pode votar
+    idade x = if x >= 16
+        then "Pode votar"
+        else "nao pode votar"
 
 
 
