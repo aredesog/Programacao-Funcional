@@ -14,3 +14,9 @@ FUNÇÕES
     let dobro x = x in dobro 3 (let é o armazenamento do uma operação aritimetica, que pode ser usada futuramenteo in indica onde ela pode ser usada)
     
 -}
+
+dobro x = x + x
+
+:r
+
+dobro 6
