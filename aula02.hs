@@ -33,3 +33,7 @@
 
 --Associar nome dos jogadores a numero na camisa
     jogadores = zip [10,7]["Neymar","Marquinhos"]
+
+--Desafio
+    DobreCadaOutro  = (zipWith (*) [2,3,4,5,6,7,8] (cycle[1,2..])) -- [2,6,4,10,6,14,8]
+
