@@ -1,6 +1,6 @@
---LISTAS EM HASKELL (EXECUTAR NO GHCI)
+--LISTAS EM HASKELL (EXECUTAR NO GHCI) Muitas anotações envolvidas em anotação.txt
 
--- ['h','a','s','k','e','l','l'] == "haskell" (DIz se a lista está correta em relação a atribuição (TRUE))      
+-- ['h','a','s','k','e','l','l'] == "haskell" (Diz se a lista está correta em relação a atribuição (TRUE))      
 
 -- "Hello" ++ " " ++ ['h','a','s','k','e','l','l'] (Adiciona uma string a string anterior)
 -- 1:[2,3,4]  (Adiciona um valor a lista string)
@@ -15,3 +15,21 @@
     --init[5,4,3,2,1] -> [5,4,3,2] (Todos menos o ultimo)
     --last[5,4,3,2,1] -> 1 (Ultimo elemento da lista)
 
+
+--Retorna a idade
+    minhaIdade x = length [x..2025]
+
+--Da uma sequencia de apenas os 10 numeros centrais
+    sequencia = take 10 (drop 20 [1..50])    
+
+--Inverte uma palavras
+    palavra = reverse "haskell"
+
+--Media das notas
+    notas = sum[3,8,9,5,6]/5 
+    nota x = if x >= 6
+        then "Aprovado"
+        else "Reprovado"
+
+--Associar nome dos jogadores a numero na camisa
+    jogadores = zip [10,7]["Neymar","Marquinhos"]
