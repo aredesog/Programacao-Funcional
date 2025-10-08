@@ -7,8 +7,15 @@ PROPIEDADES DO HASKEL
     -> é uma linguagem funcional, com o proposito do "o que realizar?"
 
 
-FUNÇÕES
+FUNÇÕES (se passa parametros)
     min (max 2 3) 5 -> 3
     succ (min (max 2 3 ) 5) -> 4 (sucessor da conta especificada)
     let dobro x = x in dobro 3 (let é o armazenamento do uma operação aritimetica, que pode ser usada futuramenteo in indica onde ela pode ser usada)
     
+
+LISTAS
+    As listas em haskell são de um tipo só (str/int...)
+    Umas das formas de adicionar uma outra coisa a uma lista de string, ou inteiro seria o uso de:
+        "Hello" ++ " " ++ ['h','a','s','k','e','l','l'] (no ghci)
+        1:[2,3,4]
+    Funções com Listas -> [length (Pega o ultimo), null, reverse, take, drop, maximum, minimum, sum, product, x elem (Verifica se tem na lista), zip (Junta duas listas)] 
