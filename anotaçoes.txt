@@ -38,3 +38,20 @@ LISTAS
     take 10[2,4..] -> Teoricamente cria uma lista infinita, take limita ao numero de coisas na lista
     take 10 (cycle [1,2,3]) -> Repete a lista ate dar 10 valores
     take 12 (cycle "LOL") -> repete a lista em ate 12 algarismos
+
+TUPLAS
+    A tupla tem tamamnho fixo, diferente das listas
+    Ela pode agrupar valores diferentes (str, int, float) (3,"Ana")::(int,str)
+    ponto::(int,int)
+    ponto = (10,25)
+    item::(str,double)
+    item = ("Chave",49.9)
+    As tuplas vao entre parenteses
+
+COMPREENSAO DE LISTAS
+    mapeamento - cria novos valores com base em uma lista
+    filtragem - filtra valores com base me uma lista
+
+    Estrutura: [*expressao* | *geradores* ,*filtros* ] (saida por elemento, x <- lista, x > 0)
+    testeInicial lista = [1| x <- lista ]
+    
