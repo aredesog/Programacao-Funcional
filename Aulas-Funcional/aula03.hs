@@ -27,4 +27,11 @@
 --Gere todas as combinacoes possiveis entre os jogadores e o numero das camisas
     --jogadoresCamisas = [(x,y)| x <- [10,11],y <-["Romario","Rivaldo"]]
 
---
+--Como sera produzida a seguinte notacao em haskell {2x | x E N/ x < 5}
+    --haskell lista = [2*x | x <- lista, x<5]
+
+--Crie uma funcao triangulosEquilateros que, dado com intervalos [1..10] retorne todos os triangulos equilateros
+    --triangulosEquilateros tuplas = [(x,y,z)| x <-tuplas, y<-tuplas, z<-tuplas]
+
+--Crie uma funcao triangulosRetangulos que, dado com intervalos [1..10] retorne todos os triangulos retangulos
+    --triangulosRetangulos tuplas = [(x,y,z)| x <-tuplas, y<-tuplas, z<-tuplas, ((x*x)+(y*y) == (z*z))]
