@@ -31,7 +31,10 @@
     --haskell lista = [2*x | x <- lista, x<5]
 
 --Crie uma funcao triangulosEquilateros que, dado com intervalos [1..10] retorne todos os triangulos equilateros
-    --triangulosEquilateros tuplas = [(x,y,z)| x <-tuplas, y<-tuplas, z<-tuplas]
+    --triangulosEquilateros tuplas = [(x,y,z)| x <-[1..10], y<-[1..10], z<-[1..10]]
 
 --Crie uma funcao triangulosRetangulos que, dado com intervalos [1..10] retorne todos os triangulos retangulos
-    --triangulosRetangulos tuplas = [(x,y,z)| x <-tuplas, y<-tuplas, z<-tuplas, ((x*x)+(y*y) == (z*z))]
+    --triangulosRetangulos tuplas = [(x,y,z)| x <-[1..10], y<-[1..10], z<-[1..10], ((x*x)+(y*y) == (z*z))]
+
+--Desafio -> Crie uma funcao triangulosRetangulos que, dado com intervalos [1..10] retorne todos os triangulos retangulos sem repeticao
+    triaguloRetngulo listas = [(x,y,z)| x <- [1..10], y <- [1..10], z <- [1..10], ((x*x)+(y*y) == (z*z)) &&  ]
