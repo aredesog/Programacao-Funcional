@@ -37,4 +37,4 @@
     --triangulosRetangulos tuplas = [(x,y,z)| x <-[1..10], y<-[1..10], z<-[1..10], ((x*x)+(y*y) == (z*z))]
 
 --Desafio -> Crie uma funcao triangulosRetangulos que, dado com intervalos [1..10] retorne todos os triangulos retangulos sem repeticao
-    triaguloRetngulo listas = [(x,y,z)| x <- [1..10], y <- [1..10], z <- [1..10], ((x*x)+(y*y) == (z*z)) &&  ]
+    --triaguloRetngulo listas = [(x,y,z)| x <- [1..10], y <- [1..10], z <- [1..10], ((x*x)+(y*y) == (z*z)) &&  ]
