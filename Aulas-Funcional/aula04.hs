@@ -7,8 +7,6 @@
         -> Polimorfismo parametrico ( reultilização, generalização)
         -> Classes de tipos ( Permite criar tipos próprios)
         -> Imutabilidade ( evita efeito colaterais, facilita paralelismo sem conflitos de estados)
-
-
     -}
         
         
