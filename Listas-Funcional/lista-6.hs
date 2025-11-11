@@ -1,7 +1,6 @@
 -- lista6.hs
 -- Integrantes: Guilherme Aredes e Luiz Cabreira
 
-
 -- 1. Fatorial
 fatorial :: Int -> Int
 fatorial 0 = 1
