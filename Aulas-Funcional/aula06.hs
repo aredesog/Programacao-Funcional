@@ -1,4 +1,5 @@
 -- Função de Alta Ordem
+{-
 
 -- Funções que recebem outras funções como argumentos ou retornam funções como resultado.
 --Exemplo:
@@ -37,4 +38,18 @@ zipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 zipWith (+) [1,2,3] [4,5,6] -- [5,7,9] (soma os elementos correspondentes das duas listas)
 zipWith (++) ["a","b","c"] ["d","e","f"] -- ["ad","be","cf"] (concatena os elementos correspondentes das duas listas)
 
+-}
 --Exercícios:
+-- 1. Crie a funcção quadrados :: [Int] -> [Int] que retorna o quadrado de cada elemento de uma lista de inteiros.
+
+quadrados :: [Int] -> [Int]
+quadrados lista = map (^2) lista
+
+-- 2. Crie a função MultiploDe5 :: [Int] -> [Int] que retorna apenas os múltiplos de 5 de uma lista de inteiros.
+
+multiploDe5 :: [Int] -> [Int]
+multiploDe5 lista = filter (\x -> x `mod` 5 == 0) lista
+
+--3. Crie a dunção quadradoDosPares :: [Int] -> [Int] que retorna o quadrado dos números pares de uma lista de inteiros.
+quadradoDosPares :: [Int] -> [Int]
+quadradoDosPares lista = map (^2) (filter even lista)
