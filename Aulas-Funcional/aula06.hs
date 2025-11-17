@@ -46,10 +46,16 @@ quadrados :: [Int] -> [Int]
 quadrados lista = map (^2) lista
 
 -- 2. Crie a função MultiploDe5 :: [Int] -> [Int] que retorna apenas os múltiplos de 5 de uma lista de inteiros.
+ehMultiploDe5 :: Int -> Bool
+ehMultiploDe5 x = x `mod` 5 == 0
 
 multiploDe5 :: [Int] -> [Int]
-multiploDe5 lista = filter (\x -> x `mod` 5 == 0) lista
+multiploDe5 lista = filter ehMultiploDe5 lista
 
 --3. Crie a dunção quadradoDosPares :: [Int] -> [Int] que retorna o quadrado dos números pares de uma lista de inteiros.
+
+ehPar :: Int -> Bool
+ehPar x = x `mod` 2 == 0
+
 quadradoDosPares :: [Int] -> [Int]
-quadradoDosPares lista = map (^2) (filter even lista)
+quadradoDosPares lista = map (^2) (filter ehPar lista)
