@@ -55,3 +55,6 @@ COMPREENSAO DE LISTAS
     Estrutura: [*expressao* | *geradores* ,*filtros* ] (saida por elemento, x <- lista, x > 0)
     testeInicial lista = [1| x <- lista ]
     
+
+FUNÇÕES DE ALTA ORDEM
+:t (+) le o tipo da função ultilizada no ghci
