@@ -10,4 +10,4 @@ multiplos = filter (\x -> x `mod` 3 == 0 && x `mod` 5 == 0) [1..50]
 
 --3: Criee uma função que recebe uma lista de tuplas [string, Int] e usa filter com uma labda para reter apenas os pares cuja srting tenha mais de 5 caracteres:
 filtra :: [(String, Int)] -> [(String, Int)]
-filtra lista = filter (\(s, n) -> length s > 5) lista
+filtra lista = filter (\(x, y) -> length x > 5) lista
